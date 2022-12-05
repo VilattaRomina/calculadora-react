@@ -1,5 +1,4 @@
-import React from ".cache/calculadora/node_modules/@types/react";
-import '.cache/calculadora/src/hojas-de-estilo/Boton.css'
+import '../hojas-de-estilo/Boton.css'
 
 //props children valor que este dentro de la etiqueta de boton 
 function Boton(props){

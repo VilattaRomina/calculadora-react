@@ -1,7 +1,7 @@
-import React from '.cache/calculadora/node_modules/@types/react';
-import ReactDOM from '.cache/calculadora/node_modules/@types/react-dom/client';
-import '.cache/calculadora/src/index.css';
+import ReactDOM from 'react-dom';
+import './index.css';
 import App from './App';
+import React from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

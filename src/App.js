@@ -1,10 +1,10 @@
 //estructura de la aplicacion
-import '.cache/calculadora/src/App.css';
-import freecodecamplogo from '.cache/calculadora/src/imagenes/freecodecamp-logo.png';
-import Boton from '.cache/calculadora/src/componentes/Boton';
-import Pantalla from '.cache/calculadora/src/componentes/Pantalla';
-import BotonClear from '.cache/calculadora/src/componentes/BotonCear';
-import {useState} from '.cache/calculadora/node_modules/@types/react';
+import './App.css';
+import freecodecamplogo from './imagenes/freecodecamp-logo.png';
+import Boton from './componentes/Boton';
+import Pantalla from './componentes/Pantalla';
+import BotonClear from './componentes/BotonCear';
+import {useState} from 'react';
 //libreria de funciones matematicas para js 
 import { evaluate} from 'mathjs';
 //ademas instalar paquete desde la terminal con npm install mathjs
