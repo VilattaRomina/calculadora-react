@@ -7,25 +7,25 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #1b1b32;
+    background-color: #98ACF8;
     color: white;
     border-radius: 25px;
-    border: 2px solid withe;
+    border: 2px solid black;
     margin: 4px;
     cursor: pointer;
    
 }
 
 .boton-contenedor:hover{
-    background-color: #5a01a7;
+    background-color: #B088F9;
 
 }
 
 .operador{
-    background-color: #00471b;
+    background-color: #B088F9;
 
 }
 
 .operador:hover{
-    background-color: #ff6600;
+    background-color: #98ACF8;
 }

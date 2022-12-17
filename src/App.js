@@ -1,6 +1,5 @@
 //estructura de la aplicacion
 import './App.css';
-import freecodecamplogo from './imagenes/freecodecamp-logo.png';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonCear';
@@ -38,12 +37,7 @@ function App() {
 
   return (
     <div className='App'>
-     <div className='freecodecamp-logo-contenedor'>
-    <img 
-    src={freecodecamplogo}
-    className='freecodecamp-logo'
-    alt='Logo de freecodecamp'
-    />
+     <div className='logo-contenedor'>
      </div>
      <div className='contenedor-calculadora'>
        <Pantalla input={input} />
