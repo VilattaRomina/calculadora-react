@@ -37,8 +37,7 @@ function App() {
 
   return (
     <div className='App'>
-     <div className='logo-contenedor'>
-     </div>
+  
      <div className='contenedor-calculadora'>
        <Pantalla input={input} />
         <div className='fila'>
